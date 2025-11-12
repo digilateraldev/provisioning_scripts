@@ -6,16 +6,16 @@ cd Wan2.2
 # Activate the main virtual environment
 . /venv/main/bin/activate
 # Install ninja
-pip install ninja
-
+# pip install ninja
+pip install fastapi uvicorn
 # Install required dependencies
-pip install -r requirements.txt
+# pip install -r requirements.txt
 
 # Install flash attention
-pip install flash_attn
+# pip install flash_attn
 
 # Install additional requirements for animation
-pip install -r requirements_animate.txt
+# pip install -r requirements_animate.txt
 
 # Install Hugging Face CLI and login
 pip install "huggingface_hub[cli]"
