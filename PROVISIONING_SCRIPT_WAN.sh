@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 # Install flash attention
 pip install flash_attn
-
+pip install python-multipart
 # Install additional requirements for animation
 pip install -r requirements_animate.txt
 
