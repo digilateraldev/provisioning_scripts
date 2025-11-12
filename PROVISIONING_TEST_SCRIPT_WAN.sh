@@ -7,7 +7,7 @@ cd Wan2.2
 . /venv/main/bin/activate
 # Install ninja
 # pip install ninja
-pip install fastapi uvicorn
+pip install fastapi uvicorn python-multipart
 # Install required dependencies
 # pip install -r requirements.txt
 
